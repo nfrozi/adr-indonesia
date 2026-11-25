@@ -9,12 +9,12 @@ Repo ini berisi **contoh nyata dan templat Architecture Decision Records (ADR)**
 | Berkas | Keterangan |
 | ------ | ---------- |
 | [`docs/adr/README.md`](docs/adr/README.md) | Panduan kapan dan cara menulis ADR |
-| [`docs/adr/000-templat.md`](docs/adr/000-template.md) | Template siap salin untuk ADR baru |
+| [`docs/adr/000-templat.md`](docs/adr/000-templat.md) | Template siap salin untuk ADR baru |
 | [`docs/adr/001-contoh-memakai-mysql.md`](docs/adr/001-contoh-memakai-mysql.md) | Contoh ADR lengkap: keputusan memakai MySQL sebagai database |
 
 ## Cara memakai
 
-1. Salin `docs/adr/000-template.md` menjadi `NNN-judul-singkat.md` (nomor urut berikutnya).
+1. Salin `docs/adr/000-templat.md` menjadi `NNN-judul-singkat.md` (nomor urut berikutnya).
 2. Isi bagian **Konteks**, **Alternatif yang dipertimbangkan**, **Keputusan**, dan **Konsekuensi**.
 3. Buka Pull Request dan minta tinjauan anggota tim lain.
 4. Setelah di-merge, ubah **Status** menjadi **Diterima**.
